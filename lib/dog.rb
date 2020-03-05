@@ -25,5 +25,7 @@ class Dog
   def save
     self.class.all << self 
   end 
+end 
+  dog.new.safe 
   
 end 
