@@ -18,9 +18,10 @@ class Dog
   def self.clear_all
     @@all.clear
   end
-  def self.print_all(name)
-    @@all.print_all{|dog| dog.name == name}
-  
+ def self.print_all(title)
+   dog = self.new 
+   dog.name = title 
+   dog 
   end 
   def save
     self.class.all << self 
