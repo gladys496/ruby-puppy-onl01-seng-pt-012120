@@ -19,7 +19,7 @@ class Dog
     @@all.clear
   end
  def self.print_all(title)
-   dog = self.new 
+   dog = self.all 
    dog.name = title 
    dog 
   end 
