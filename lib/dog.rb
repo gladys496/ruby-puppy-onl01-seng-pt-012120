@@ -24,7 +24,7 @@ class Dog
   end 
   def save
     self.class.all << self 
-    dog.safe
+    
   end 
 end 
   
