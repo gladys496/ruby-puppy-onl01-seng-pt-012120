@@ -22,5 +22,6 @@ class Dog
     @@all.print_all{|dog| dog.name == name}
   
   end 
+  def save
   
 end 
